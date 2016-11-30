@@ -1,0 +1,12 @@
+1) Open your datawindow in painter.
+2) Select Detail Band properties > General tab > Click button next to Color property.
+3) Write below expression
+if(getrow() = currentrow(), rgb(192,192,192), rgb (255,255,255))
+4) select datawindow properties > General Tab > Under Grid...Uncheck 'Mouse Selection' (it will remove black highlighted color when you click on any column).
+5) Remove above code from clicked event
+6) Add below code to Rowfocuschaged event.
+dw_report.SetRow(currentrow)
+dw_report.SetRedraw(TRUE)
+
+//todo
+tela imprimir
