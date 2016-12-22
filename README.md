@@ -1,6 +1,6 @@
 # powerbuilder-front-box
 
-Use ibm db2 connection, 
+Use ibm db2 connection, and use this sql:
 
 ```sql
 create table w_produto (
