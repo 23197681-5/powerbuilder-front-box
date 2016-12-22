@@ -2,7 +2,7 @@
 
 Use ibm db2 connection, 
 
-```language sql
+```sql
 create table w_produto (
   pk_id integer,
   descricao varchar(4),
@@ -10,4 +10,3 @@ create table w_produto (
   quantidade decimal(15, 2)
   )
 ```
-
