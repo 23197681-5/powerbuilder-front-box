@@ -78,7 +78,7 @@ Create table LOG (
 );
 ```
 ##Config your db2 acess
-in the root folder change the file "properties" with your username and your password
+in the root folder change the file "properties" and put inside that your username and your password
 
 ##Login
 In the login use
