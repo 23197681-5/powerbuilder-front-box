@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "exemplo1.pbt";
+@end;
+DefaultTarget "exemplo1.pbt";
+DefaultRemoteTarget "exemplo1.pbt";
