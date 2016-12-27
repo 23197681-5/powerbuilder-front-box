@@ -14,12 +14,11 @@ CREATE TABLE client(
   name varchar(23),
   id integer primary key generated always as identity not null default 0
 );
-go
-commit
+GO
+COMMIT
 
 INSERT INTO
   client ( name ) values ('Roberta Franca')
-
 
 Create table phone(
   description varchar(11),
@@ -35,17 +34,14 @@ Create table Historico_compras(
   Data date not null, 
   Hora time not null
 );
-
 GO
 COMMIT
-
 
 Create table last_user(
   Id integer primary key generated always as identity not null,    
   Name varchar(31) not null,
   Senha varchar(31) not null
 );
-
 
 CREATE TABLE NivelDeAcesso(
   name varchar(64) primary key not null,
@@ -61,7 +57,7 @@ CREATE TABLE TelasAcessiveis(
   Imprimir char(1) not null,
   Historico char(1) not null,
   Categorias char(1) not null
-)
+);
 
 Create table Chat_CISSMIRIM(
   Id integer primary key generated always as identity NOT NULL,
@@ -79,8 +75,7 @@ Create table LOG (
   Acao varchar(300) not null,
   data date not null,
   horavarchar(8) not null
-)
-
+);
 ```
 ##Login
 In the login use
