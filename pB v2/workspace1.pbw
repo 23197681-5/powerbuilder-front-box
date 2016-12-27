@@ -1,9 +1,0 @@
-Save Format v3.0(19990112)
-@begin Unchecked
-@end;
-@begin Targets
- 0 "exemplo1.pbt";
- 1 "sub1\\j.pbt";
-@end;
-DefaultTarget "sub1\\j.pbt";
-DefaultRemoteTarget "sub1\\j.pbt";
