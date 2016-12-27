@@ -28,12 +28,6 @@ id integer primary key generated always as identity not null,
 parentid integer not null
 )
 
-//uso de mascara
-	
-
-
- 
-
 Create table Historico_compras(
 Id integer primary key generated always as identity not null,
 Caixa varchar(23) not null,
@@ -60,10 +54,6 @@ name varchar(64) primary key not null,
 categoria varchar(64) not null
 )
 
-  ALTER TABLE t1 
-      ALTER COLUMN colnam1 
-      SET DATA TYPE VARCHAR(4000)
-
 create table TelasAcessiveis(
 Nivel integer not null primary key,
 Venda char(1) not null,
@@ -74,8 +64,6 @@ Imprimir char(1) not null,
 Historico char(1) not null,
 Categorias char(1) not null
 )
-
- (0, 'T', 'T', 'T', 'T', 'T', 'T', 'T'),
 
 Create table Chat_CISSMIRIM(
         Id integer primary key generated always as identity NOT NULL,
