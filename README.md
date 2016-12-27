@@ -77,6 +77,9 @@ Create table LOG (
   horavarchar(8) not null
 );
 ```
+##Config your db2 acess
+in the root folder change the file "properties" with your username and your password
+
 ##Login
 In the login use
 User: suporte
